@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Amarante&family=Aubrey&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=DM+Serif+Display:ital@0;1&family=Expletus+Sans:ital,wght@0,400..700;1,400..700&family=Playball&family=Tangerine:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amarante&family=Aubrey&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Chiron+GoRound+TC:wght@200..900&family=DM+Serif+Display:ital@0;1&family=Expletus+Sans:ital,wght@0,400..700;1,400..700&family=Fredoka:wght@300..700&family=Playball&family=Tangerine:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+    width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+/* NAVBAR */
+nav {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 98%;
+    background: rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    z-index: 1000;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px;
+    padding: 10px;
+    font-family: "Chiron GoRound TC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.nav-right {
+    display: flex;
+}
+
+nav,
+img {
+    left: 20px;
+    top: 5px;
+    margin: 0 -10px -10px -10px;
+}
+
+/* SECTIUNI */
+section {
+    height: 100vh;
+    padding: 80px 20px;
+    box-sizing: border-box;
+}
+
+/* PAGINA 1 */
+#home {
+    color: white;
+    position: relative;
+    text-align: center;
+    background-image: linear-gradient(rgba(8, 8, 70, 0.474)), url(imagini/VanGogh-starry_night_ballance1.jpg);
+    background-size: c;
+    background-position: center;
+
+}
+
+.signature {
+    position: absolute;
+    left: 20px;
+    top: 80px;
+    width: 150px;
+}
+
+#home h1 {
+    margin-top: 100px;
+    font-size: 220px;
+    font-family: "Tangerine", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#home p {
+    width: 45%;
+    text-align: center;
+    margin: 0 auto;
+    font-family: "Chiron GoRound TC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    top: -130px;
+    position: relative;
+
+}
+
+/* PAGINA 2 */
+#bio {
+    background: #0a1a3a;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+#bio img {
+    width: 380px;
+    margin-right: 40px;
+    margin-left: 60px;
+    border-radius: 10px;
+
+}
+
+#bio h2 {
+    font-family: "Tangerine", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+}
+
+#bio hr {
+    margin-top: -30px;
+}
+
+#bio p {
+    font-family: "Chiron GoRound TC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    position: relative;
+    width: 90%;
+}
+
+p {
+     font-family: "Chiron GoRound TC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    position: relative;
+}
+
+
+
+
+
+
+/* GALERIE */
+#gallery {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+    min-height: 100vh;
+    height: auto;
+}
+
+#gallery h2 {
+    font-size: 70px;
+    font-family: "Tangerine", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    margin-top: -30px;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* IMAGINI */
+.gallery img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+/* efect hover */
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+/* MUZEU */
+#museum {
+    background: #263252;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.museum-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    max-width: 1000px;
+}
+
+.museum-text {
+    flex: 1;
+    color: aliceblue;
+    padding-right: 100px;
+    width: 40%;
+    text-align: left;
+}
+
+.museum-text h2 {
+    font-size: 70px;
+    font-family: "Tangerine", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.museum-text p {
+    font-family: "Chiron GoRound TC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.museum-image {
+    flex: 1;
+    background-color: antiquewhite;
+    margin: 0;
+    margin-right: -150px;
+
+}
+
+
+.museum-image img {
+    width: 600px;
+    border-radius: 10px;
+}
+
+/* CONTACT */
+#contact {
+    background: #000;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    margin-bottom: -100px;
+}
+
+#contact h2 {
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* box */
+.contact-box {
+    background: rgba(255, 255, 255, 0.08);
+    padding: 20px;
+    border-radius: 12px;
+    transition: 0.3s ease;
+}
+
+/* hover */
+.contact-box:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.15);
+}
+
+/* titlu */
+.contact-box h3 {
+    color: #f5d76e;
+    margin-bottom: 10px;
+     font-family: "Tangerine", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+
+/* link */
+.contact-box a {
+    color: #4da6ff;
+    text-decoration: none;
+}
+
+.contact-box a:hover {
+    text-decoration: underline;
+}
+html {
+    scroll-behavior: smooth;
+}
