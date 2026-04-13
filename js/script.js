@@ -6,5 +6,16 @@ function scrollToSection(id) {
 }
 
 
-// AFISARE INITIALA
-showImage(index);
+document.addEventListener("DOMContentLoaded", function() {
+    const dateElement = document.getElementById("current-date");
+
+    const today = new Date();
+
+    const formattedDate = today.toLocaleDateString('ro-RO', {
+        day: 'numeric',
+        month: 'long',
+        year: 'numeric'
+    });
+
+    dateElement.textContent = formattedDate;
+});
